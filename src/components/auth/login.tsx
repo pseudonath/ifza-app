@@ -3,7 +3,7 @@ import ifzaLogo from "/ifza-logo.png";
 import { Link } from "react-router-dom";
 import NavLinkAuth from "../nav-link";
 
-export default function LoginForm() {
+export default function LoginPage() {
   return (
     <Container>
       <Logo src={ifzaLogo} className="mb-16" width={100.35} height={28} alt="ifza-logo" />
