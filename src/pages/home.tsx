@@ -4,7 +4,7 @@ import ifzaLogo from "/ifza-logo.png";
 import ifzaLicenseApplication from "/license-app.svg";
 import ifzaLicenseRequest from "/license-req.svg";
 import ifzaVisaApplication from "/visa-app.svg";
-import ifzaVisaRequest from "/license-req.svg";
+import ifzaVisaRequest from "/visa-req.svg";
 
 export default function HomePage() {
   return (
@@ -39,7 +39,7 @@ export default function HomePage() {
             <ServiceItem>
               <img src={ifzaLicenseApplication} alt="" />
               <ServiceName>
-                Corporate <br /> Banking
+                License <br /> Application
               </ServiceName>
             </ServiceItem>
 
@@ -47,7 +47,7 @@ export default function HomePage() {
               <img src={ifzaLicenseRequest} alt="" />
 
               <ServiceName>
-                Investment <br /> Solutions
+                Visa <br /> Application
               </ServiceName>
             </ServiceItem>
 
@@ -55,7 +55,7 @@ export default function HomePage() {
               <img src={ifzaVisaApplication} alt="" />
 
               <ServiceName>
-                Risk <br /> Management
+                License <br /> Letter Request
               </ServiceName>
             </ServiceItem>
 
@@ -63,7 +63,7 @@ export default function HomePage() {
               <img src={ifzaVisaRequest} alt="" />
 
               <ServiceName>
-                Risk <br /> Management
+                Visa <br /> Request
               </ServiceName>
             </ServiceItem>
           </ServicesContainer>
