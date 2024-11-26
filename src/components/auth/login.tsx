@@ -15,7 +15,7 @@ export default function LoginPage() {
           <Input type="email" id="email" placeholder="Your username" required />
         </FormGroup>
         <FormGroup>
-          <Input type="password" id="password" placeholder="Your password" required />
+          <Input type="password" id="password" autoComplete="password" placeholder="Your password" required />
         </FormGroup>
 
         <SubmitButton type="submit">Login</SubmitButton>

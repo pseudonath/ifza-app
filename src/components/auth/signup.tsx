@@ -15,10 +15,10 @@ export default function LoginForm() {
           <Input type="email" id="email" placeholder="Your username" required />
         </FormGroup>
         <FormGroup>
-          <Input type="password" id="password" placeholder="New password" required />
+          <Input type="password" id="password" autoComplete="password" placeholder="New password" required />
         </FormGroup>
         <FormGroup>
-          <Input type="password" id="password" placeholder="Confirm password" required />
+          <Input type="password" id="current-password" autoComplete="current-password" placeholder="Confirm password" required />
         </FormGroup>
 
         <SubmitButton type="submit">Create New Account</SubmitButton>
